@@ -1,0 +1,181 @@
+:root{
+    --font-family:"Red Hat Display", "Open Sans", sans-serif;
+    
+    /*Primary */
+--Blue-100: hsl(225, 100%, 94%);
+--Blue-700: hsl(245, 75%, 52%);
+
+    /* Neutral */
+--Blue-50: hsl(225, 100%, 98%);
+--Gray-600: hsl(224, 23%, 55%);
+--Blue-950: hsl(223, 47%, 23%);
+
+}
+
+
+body{
+    margin: 0;
+}
+
+.container{
+background-color: var(--Blue-100);
+height: 100vh;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container>img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.container .main-card{
+    width: 35%;
+    height: fit-content;
+    background-color: var(--Blue-50);
+    position: absolute;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+.main-card img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.main-card .data-card{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font-family);
+
+}
+
+.main-card .data-card h2{
+    color: var(--Blue-950);
+    font-size: 28px;
+    font-weight: 900;
+    opacity: .9;
+    margin-bottom: 10px;
+}
+.main-card .data-card p{
+    text-align: center;
+    width: 70%;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 15px 0 25px 0 ;
+    color: var(--Gray-600);
+}
+
+
+.main-card .data-card .music{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    background-color: hsl(225deg 100% 94% / 50%);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.main-card .data-card .music img{
+    width: 15%;
+
+}
+
+.data-card .music .data-music{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: -30px;
+}
+
+.data-card .music .data-music>p{
+    font-size: 16px;
+    color: var(--Blue-950);
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.data-card .music .data-music>span{
+    color: hsl(223deg 47% 23% / 50%);
+    font-weight: 900;
+    opacity: .9;
+
+}
+
+.data-card .music a {
+    font-size: 16px;
+    color: var(--Blue-700);
+    position: relative;
+    right: -70px;
+    font-weight: 800;
+}
+.data-card .music a:hover{
+    text-decoration: none;
+    opacity: .7;
+
+}
+
+.data-card  button{
+    border: none;
+    background-color: var(--Blue-700);
+    color: white;
+    width: 80%;
+    height: 60px;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0px 13px 35px -15px var(--Blue-700);
+}
+.data-card button:hover{
+    opacity: .7;
+}
+.data-card>a {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: var(--Blue-950);
+    font-weight: 900;
+    opacity: .8;
+}
+
+.data-card>a:hover{
+opacity: 1;
+}
+
+@media(max-width:380px){
+    .container{
+        padding: 30px 0 30px 0 ;
+    }
+    .main-card{
+        width: 90% !important;
+    }
+    .data-card .music .data-music>p {
+        width: 100%;
+    }
+    .container .main-card .data-music{
+        left: 0;
+    }
+    .data-card .music>a{
+        right: -20px;
+    }
+}

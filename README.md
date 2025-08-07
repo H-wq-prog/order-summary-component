@@ -1,2 +1,38 @@
-# order-summary-component
-Training project on CSS, HTML
+# Frontend Mentor - Order summary card solution
+
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot]![](./Screenshot1.jpg)
+  - [Links](#links)
+- [My process](#my-process)
+
+
+
+
+
+
+- Solution URL:(https://your-solution-url.com)
+- Live Site URL:(https://your-live-site-url.com)
+
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+
+
+
+
+
+
+
+- Website - (https://buildwithheidi.odoo.com/)
+- Frontend Mentor -(https://www.frontendmentor.io/home)
+- linked in - (https://www.linkedin.com/in/heidiramdan-4199b723a/)
+
+
