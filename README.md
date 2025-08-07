@@ -8,7 +8,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [The challenge](#the-challenge)
   - [Screenshot]![](./Screenshot1.jpg)
   - [Links](https://github.com/H-wq-prog/order-summary-component.git)
-- [My process](#my-process)
+- [My process](https://h-wq-prog.github.io/order-summary-component/)
 
 
 
@@ -16,7 +16,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 
 - Solution URL:(https://github.com/H-wq-prog/order-summary-component.git)
-- Live Site URL:(https://your-live-site-url.com)
+- Live Site URL:(https://h-wq-prog.github.io/order-summary-component/)
 
 
 ### Built with
